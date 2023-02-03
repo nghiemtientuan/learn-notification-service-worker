@@ -2,6 +2,7 @@ const subscriptions = {};
 let crypto = require('crypto');
 const webpush = require('web-push');
 
+// Google Cloud Messaging
 const vapidKeys = {
   privateKey: 'bdSiNzUhUP6piAxLH-tW88zfBlWWveIx0dAsDO66aVU',
   publicKey: 'BIN2Jc5Vmkmy-S3AUrcMlpKxJpLeVRAfu9WBqUbJ70SJOCWGCGXKY-Xzyh7HDr6KbRDGYHjqZ06OcS3BjD7uAm8'
